@@ -337,6 +337,7 @@ if (btnAbrirWhatsApp) {
             '',
             `Hola Sr/a *${nombre}*, le informamos que se registró una nueva visita en portería:`,
             '',
+            '🏢 *Empresa:* ' + (empresa || 'VISITA') + '\n' +
             `👤 *Visitante:* ${visita.datosPersonales}`,
             `📍 *Sector:* ${visita.sector}`,
             `📝 *Observaciones:* ${visita.observaciones || 'Ninguna'}`
